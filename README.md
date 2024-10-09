@@ -22,9 +22,9 @@ mmHPE Dataset
     ├─2.pkl
     ├─...
 ```
-### Device && Cfg
- - AWR1843BOOST mmWave radar + DCA1000EVM
- - Azure Kinect
+### Devices && Configurations
+ - [AWR1843BOOST mmWave radar](https://www.ti.com/tool/AWR1843BOOST) + [DCA1000EVM](https://www.ti.com/tool/DCA1000EVM)
+ - [Azure Kinect](https://www.microsoft.com/en-us/d/azure-kinect-dk/8pp5vxmd9nhq)
 ```
 -------- Radar Cfg --------
 -- General
@@ -47,6 +47,11 @@ END_CHIRP_TX = 2
 NUM_FRAMES = 0
 CHIRP_LOOPS = 32 
 PERIODICITY = 16.666665  -- ms
+```
+
+```
+-------- Camera Cfg --------
+
 ```
 
 ## Installation
