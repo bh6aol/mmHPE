@@ -1,5 +1,5 @@
 # mmHPE: Robust Multi-Scale 3D Human Pose Estimation Using a Single mmWave Radar
-This repository represents the official implementation of the [mmHPE: Robust Multi-Scale 3D Human Pose Estimation Using a Single mmWave Radar](https://ieeexplore.ieee.org/document/10707266).
+This repository represents the official implementation of the [mmHPE: Robust Multi-Scale 3D Human Pose Estimation Using a Single mmWave Radar](https://doi.org/10.1109/JIOT.2024.3476350).
 
 | ![walking_place](imgs/walking_place.gif) | ![squat](imgs/squat.gif) |
 |:------:|:-------:|
