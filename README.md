@@ -23,16 +23,16 @@ sitting and shaking their legs; (4) sitting and using a cell phone; (5) sitting 
 side; (10) walking in place; (11) walking at random. For each activity, subjects repeated it 8 times for 40 seconds each time.
 ```
 mmHPE Dataset
-├─radar
-│  ├─{subject}_{scene}_{sample}.bin
-│  └─...
-├─video
-│  └─depth 
-│     ├─{subject}_{scene}_{sample}.mkv
-│     └─...
-└─label
-   ├─{subject}_{scene}_{sample}.csv
-   └─...
+ ├─radar
+ │  ├─{subject}_{scene}_{sample}.bin
+ │  └─...
+ ├─video
+ │  └─depth 
+ │     ├─{subject}_{scene}_{sample}.mkv
+ │     └─...
+ └─label
+    ├─{subject}_{scene}_{sample}.csv
+    └─...
 ```
 
 
