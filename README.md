@@ -3,7 +3,7 @@ This repository represents the official implementation of the [mmHPE: Robust Mul
 
 > [2024/10/10] We will release the code and dataset soon. Thanks.
 
-# 1. Overview
+## 1. Overview
 ![overview](imgs/overview.png)
 
 | ![walking_place](imgs/walking_place.gif) | ![squat](imgs/squat.gif) |
@@ -17,8 +17,10 @@ This repository represents the official implementation of the [mmHPE: Robust Mul
 |walking in a circle|walking at random|
 
 
-## Dataset
-Download `mmHPE Dataset` from [Google drive](https://drive.google.com):
+## 2. Dataset
+7 volunteers (including 5 males and 2 females) simulated 11 activities of daily life, including (1) walking in a circle; (2) sitting and turning their heads; (3)
+sitting and shaking their legs; (4) sitting and using a cell phone; (5) sitting and typing; (6) squatting deeply; (7) standing and waving; (8) walking back and forth; (9) walking from side to
+side; (10) walking in place; (11) walking at random. For each activity, subjects repeated it 8 times for 40 seconds each time.
 ```
 mmHPE Dataset
 ├─radar
@@ -32,7 +34,9 @@ mmHPE Dataset
    ├─{subject}_{scene}_{sample}.csv
    └─...
 ```
-### Devices && Configurations
+
+
+### 2.1 Devices && Configurations
  - [AWR1843BOOST mmWave radar](https://www.ti.com/tool/AWR1843BOOST) + [DCA1000EVM](https://www.ti.com/tool/DCA1000EVM)
  - [Azure Kinect](https://www.microsoft.com/en-us/d/azure-kinect-dk/8pp5vxmd9nhq)
 ```
@@ -67,9 +71,13 @@ Color format:     K4A_IMAGE_FORMAT_COLOR_BGRA32
 Color resolution: K4A_COLOR_RESOLUTION_720P
 ```
 
-## Installation
-## Citation
+### 2.2 Download
+Download `mmHPE Dataset` from [123pan](#):
 
+
+## 3. Installation
+## 4. Citation
+## 5. Acknowledgments
 
 
 
