@@ -58,7 +58,6 @@ RX_GAIN = 30 -- dB
 -- FrameConfig
 START_CHIRP_TX = 0
 END_CHIRP_TX = 2 
-NUM_FRAMES = 0
 CHIRP_LOOPS = 32 
 PERIODICITY = 16.666665  -- ms
 ```
