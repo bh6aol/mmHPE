@@ -3,6 +3,9 @@ This repository represents the official implementation of the [mmHPE: Robust Mul
 
 > [2024/10/10] We will release the code and dataset soon. Thanks.
 
+# 1. Overview
+![overview](imgs/overview.png)
+
 | ![walking_place](imgs/walking_place.gif) | ![squat](imgs/squat.gif) |
 |:------:|:-------:|
 |walking in place|squatting deeply|
