@@ -1,6 +1,8 @@
 # mmHPE: Robust Multi-Scale 3D Human Pose Estimation Using a Single mmWave Radar
 This repository represents the official implementation of the [mmHPE: Robust Multi-Scale 3D Human Pose Estimation Using a Single mmWave Radar](https://doi.org/10.1109/JIOT.2024.3476350).
 
+> [2024/10/10] We will release the code and dataset soon. Thanks.
+
 | ![walking_place](imgs/walking_place.gif) | ![squat](imgs/squat.gif) |
 |:------:|:-------:|
 |walking in place|squatting deeply|
@@ -16,11 +18,16 @@ This repository represents the official implementation of the [mmHPE: Robust Mul
 Download `mmHPE Dataset` from [Google drive](https://drive.google.com):
 ```
 mmHPE Dataset
-└─000  // note
-  └─raw
-    ├─1.pkl
-    ├─2.pkl
-    ├─...
+├─radar
+│  ├─{subject}_{scene}_{sample}.bin
+│  └─...
+├─video
+│  └─depth 
+│     ├─{subject}_{scene}_{sample}.mkv
+│     └─...
+└─label
+   ├─{subject}_{scene}_{sample}.csv
+   └─...
 ```
 ### Devices && Configurations
  - [AWR1843BOOST mmWave radar](https://www.ti.com/tool/AWR1843BOOST) + [DCA1000EVM](https://www.ti.com/tool/DCA1000EVM)
@@ -51,12 +58,15 @@ PERIODICITY = 16.666665  -- ms
 
 ```
 -------- Camera Cfg --------
-
+FPS:              K4A_FRAMES_PER_SECOND_30
+Depth mode:       K4A_DEPTH_MODE_WFOV_2X2BINNED
+Color format:     K4A_IMAGE_FORMAT_COLOR_BGRA32
+Color resolution: K4A_COLOR_RESOLUTION_720P
 ```
 
 ## Installation
 ## Citation
 
 
-We will release the code and dataset soon. Thanks.
+
 
