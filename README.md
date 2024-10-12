@@ -76,6 +76,15 @@ Download `mmHPE Dataset` from [123pan](https://www.123pan.com/s/nkn0Td-OrZi3) (C
 
 ## 3. Installation
 ## 4. Citation
+```
+@article{wu2024mmhpe,
+  title={mmHPE: Robust Multi-Scale 3D Human Pose Estimation Using a Single mmWave Radar},
+  author={Wu, Yingxiao and Jiang, Zhongmin and Ni, Haocheng and Mao, Changlin and Zhou, Zhiyuan and Wang, Wenxiang and Han, Jianping},
+  journal={IEEE Internet of Things Journal},
+  year={2024},
+  publisher={IEEE}
+}
+```
 ## 5. Acknowledgments
 
 
